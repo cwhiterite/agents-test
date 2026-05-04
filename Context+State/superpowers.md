@@ -1,3 +1,21 @@
+use_skill("brainstorming")
+
+Skill When to Use
+brainstorming Before any creative work
+writing-plans After brainstorming, to create implementation plans
+test-driven-development Before writing implementation code
+systematic-debugging When encountering bugs or test failures
+subagent-driven-development For executing plans with independent tasks
+verification-before-completion Before claiming work is complete
+receiving-code-review When receiving code review feedback
+finishing-a-development-branch When implementation is complete
+requesting-code-review Before merging to verify work
+dispatching-parallel-agents For 2+ independent tasks
+executing-plans To execute a written implementation plan
+using-git-worktrees For isolated feature work
+writing-skills For creating/editing skills
+using-superpowers At the start of any conversation
+
 Yes, the **Superpowers** ecosystem (developed by Jesse Vincent/obra) is essentially the professional-grade, automated version of the manual context strategy we just built.
 
 It isn't just a collection of prompts; it is a **disciplined operational layer** that forces an LLM to behave like a senior engineer rather than a "vibe coder."

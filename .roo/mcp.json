@@ -18,15 +18,19 @@
 			"args": [
 				"-y",
 				"@modelcontextprotocol/server-sequential-thinking"
+			],
+			"alwaysAllow": [
+				"sequentialthinking"
 			]
 		},
 		"superpowers": {
 			"command": "node",
 			"args": [
-				"C:/Users/cwhite/vscode/superpowers-mcp/build/index.js"
+				"c:/users/cwhite/superpowers-mcp/build/index.js"
 			],
 			"alwaysAllow": [
-				"list_skills"
+				"list_skills",
+				"use_skill"
 			]
 		}
 	}
